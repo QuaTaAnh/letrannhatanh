@@ -1,0 +1,98 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	background-color: #355664;
+}
+body{
+	width: 960px;
+	margin: auto;
+	font-family: Arial,sans-serif;
+	color: #FCFCFC;
+	background-color: #355664;
+}
+header > h1{
+	font-family: forte, arial, sans-serif;
+	font-size: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 10px 0 0;
+}
+header h3{
+	font-family: forte, arial, sans-serif;
+	text-align: right;
+	font-size: 30px;
+	font-weight: normal;
+	margin: 0 0 10px;
+}
+header nav{
+	padding: 0 5px;
+}
+header li{
+	display: inline-block;
+	padding: 7px 10px 4px;
+	margin: 5px 2px;
+}
+header nav a{
+	color: #8ec45b;
+	font-size: 30px;
+}
+header nav li:first-child a{
+	color: #7cb3e9;
+	text-transform: lowercase;
+}
+header nav li:last-child a{
+	color: #fff;
+	text-transform: uppercase;
+}
+article{
+	height: 390px;
+	background-color: #213e4a;
+	border-radius: 10px;
+}
+main h2{
+	font-family: forte, arial, sans-serif;
+	font-size: 40px;
+	letter-spacing: 15px;
+	text-align: center;
+	border-bottom: 3px solid #416371;
+	padding: 20px;
+	margin: 0 20px;
+	text-transform: uppercase;
+}
+main figure{
+	width: 50%;
+	float: right;
+}
+main figure img{
+	width: 100%;
+	border-radius: 10px;
+}
+main figure +p{
+	color: #94c258;
+}
+main .article-content {
+	margin: 15px 20px;
+}
+main .article-content p{
+	line-height: 20px;
+	padding-bottom: 5px;
+	width: 50%;
+	display: inline-block;
+	padding-right: 15px;
+}
+main .article-content::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+footer{
+	border-top: 3px solid #142830;
+	padding-top: 15px;
+	margin-bottom: 30px;
+	margin-top: 15px;
+	font-size: 20px;
+	text-align: center;
+}

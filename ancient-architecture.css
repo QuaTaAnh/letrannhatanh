@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e2d7aa;
+    color: #000;
+    width: 1180px;
+    margin: 0 auto;  
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+}
+
+nav ul{
+    text-align: center;
+    list-style: none;
+}
+nav li{
+    display: inline-block;
+    padding: 24px 8px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 28px;
+    color: #000;
+     
+}
+
+nav li:hover a{
+    color:#e2d7aa;
+    background-color: #000;
+}
+
+
+nav li:first-child a,
+nav li:last-child a{
+    color: #0a2d4a;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: ‘Indie Flower’, cursive;;
+    
+}
+
+div.img-container img{
+    width: 100%;
+    margin-top: 65px;
+    text-align: center;
+}
+
+main{
+    margin-top: 16px;
+    display: block;
+    padding-bottom: 16px;
+    overflow: hidden;
+}
+
+article{
+    width: 33.3%;
+    float:left;
+    display: inline-block;
+}
+article:nth-child(2){
+    padding: 0 8px;
+}
+
+article:nth-child(1){
+    padding-right:8px ;
+}
+article:nth-child(3){
+    padding-left: 8px;
+
+}
+article > img{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+
+article h3,
+article h2{
+    text-align: center;
+}
+
+article > h3 > a{
+    color: blue;
+    text-decoration: none;
+}
+
+article p{
+    text-align:justify;
+    font-size: 16px;
+    font-family: EucrosiaUPC, sans-serif;
+}
+
+main > article > p:first-letter{
+    font-size: 40px;
+}
+
+article p:last-of-type span:first-of-type a::before {
+    content: url(images/comment.png);
+    position: relative;
+    right: 5px;
+    top: 7px;
+    padding: 10px; 
+}
+
+article > p > span > a{
+    background-color: rgb(180, 94, 13);
+    line-height: 32px;
+    padding: 8px 8px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+footer{
+    text-align:center;
+    padding: 10px 0;  
+}
